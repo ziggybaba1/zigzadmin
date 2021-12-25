@@ -1,0 +1,26 @@
+.bodyWrapper{
+    position: absolute;
+    top: 0.5px;
+    left: 0;
+    right: 0;
+    bottom: 0.5px;
+    overflow-x: hidden; /* or any other value */
+    overflow-y: auto; /* or any other value */
+    .container{
+        display: flex;
+
+        .link{
+            text-decoration: none;
+            color: inherit;
+            
+        }
+        @media screen and (max-width: 800px){
+            
+            //    margin-top: 10px;
+               margin: 0; 
+               height: 100%; 
+               overflow: hidden;
+        }
+    
+    }
+}
